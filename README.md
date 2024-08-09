@@ -9,9 +9,9 @@ Este projeto foi idealizado por [@Thales](https://github.com/ThalesD-Oliveira), 
 
 O projeto surgiu a partir de discussões em grupos de WhatsApp, onde foram convidados participantes interessados em aprimorar suas habilidades, aprender, ou contribuir com um projeto que simula o ambiente de uma empresa real. Após votação entre os membros, as seguintes decisões foram tomadas:
 
-<b>Tema: Desenvolvimento de um site comercial inspirado nos filmes Deadpool e Wolverine.</b>
-<b>Tecnologia de Front-End: React.</b>
-<b>Tecnologia de Back-End: Python.</b>
+- <b>Tema: Desenvolvimento de um site comercial inspirado nos filmes Deadpool e Wolverine.</b>
+- <b>Tecnologia de Front-End: React.</b>
+- <b>Tecnologia de Back-End: Python.</b>
 
 Este projeto tem como objetivo principal simular o dia a dia de empresas de pequeno e médio porte, proporcionando uma experiência prática e colaborativa para todos os envolvidos.
 
