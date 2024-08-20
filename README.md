@@ -22,7 +22,7 @@ Este projeto tem como objetivo principal simular o dia a dia de empresas de pequ
 
 - [Como Como contribuir](./assets/readme//como_contribuir.md).
 - [Documentação Front-end](./assets/readme/frontend.md).
-- [Documentação Back-end](./assets/readme/frontend.md).
+- [Documentação Back-end](./assets/readme/backend.md).
 
 ## Links dos repositórios
 
