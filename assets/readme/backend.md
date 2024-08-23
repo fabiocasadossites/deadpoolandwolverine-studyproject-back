@@ -1,3 +1,10 @@
+### Padronização
+
+- Variáveis, shemas em inglês;
+- Commits fiquem a vontade será apreciado com o formato do Conventional Commits (https://www.conventionalcommits.org/pt-br/v1.0.0-beta.4/);
+- Comentários dentro do código em portugês; 
+- Push para o repositório oficial em inglês e com o conceito: (#NUMERO_TASK): COMENTÁRIO
+
 ### Ferramentas
 
 - pyenv - https://github.com/pyenv/pyenv
@@ -10,8 +17,6 @@
 
 - python = "3.12.*"
 - fastapi = "^0.112.1"
-
-- Criação de variáveis e commits em inglês
 
 ### Criando ambiente virtual
 
@@ -57,6 +62,8 @@ Criar o arquivo em html dos testes
 ````
 task post_test
 ````
+
+### Helps
 
 Derubar as portas caso estajam ocupadas:
 ````
