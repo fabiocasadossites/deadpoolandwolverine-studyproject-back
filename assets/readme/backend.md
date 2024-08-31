@@ -96,3 +96,32 @@ Taskipy, framework de criação de comandos - https://github.com/taskipy/taskipy
 ````
 poetry add --group dev taskipy
 ````
+
+Sqlalchemy, ORM banco de dados - https://www.sqlalchemy.org/
+````
+poetry add sqlalchemy
+````
+
+Pydantic, configurações de banco de dados - https://docs.pydantic.dev/latest/
+````
+poetry add pydantic-settings
+````
+
+Alembic, migration de banco de dados - https://alembic.sqlalchemy.org/en/latest/
+````
+poetry add alembic
+````
+ - Gerar uma migração
+````
+alembic revision --autogenerate -m "MENSAGEM"
+````
+
+Pwdlib, Criptador de senhas - https://frankie567.github.io/pwdlib/
+````
+poetry add "pwdlib[argon2]"
+````
+
+JWT, Criação de tokens - https://pyjwt.readthedocs.io/en/stable/ e https://jwt.io/
+````
+poetry add pyjwt
+````
