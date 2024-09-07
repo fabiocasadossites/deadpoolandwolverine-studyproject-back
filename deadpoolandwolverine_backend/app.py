@@ -1,12 +1,7 @@
-from http import HTTPStatus
-
 from fastapi import FastAPI
 
-from deadpoolandwolverine_backend.shemas import Message
+from deadpoolandwolverine_backend.routers import exemple
 
 app = FastAPI()
 
-
-@app.get('/', status_code=HTTPStatus.OK, response_model=Message)
-def read_root():
-    return {'message': 'Hello World'}
+app.include_router(exemple.router)
