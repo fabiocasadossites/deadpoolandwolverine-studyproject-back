@@ -2,7 +2,7 @@ from http import HTTPStatus
 
 from fastapi import APIRouter
 
-from deadpoolandwolverine_backend.shemas import Message
+from deadpoolandwolverine_backend.schemas import Message
 
 router = APIRouter(prefix='', tags=['example'])
 

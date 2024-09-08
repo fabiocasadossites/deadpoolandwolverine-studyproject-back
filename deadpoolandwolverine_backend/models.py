@@ -1,5 +1,5 @@
 from datetime import datetime
-
+import uuid
 from sqlalchemy import func
 from sqlalchemy.orm import Mapped, mapped_column, registry, relationship
 
@@ -17,7 +17,7 @@ class Shorts:
         init=False, server_default=func.now()
     )
     dateUp: Mapped[str]
-    token: Mapped[str]
+    token: Mapped[str] = mapped_column(default=lambda: str(uuid.uuid4()))
 
 
 @table_registry.mapped_as_dataclass
@@ -32,7 +32,7 @@ class Characters:
         init=False, server_default=func.now()
     )
     dateUp: Mapped[str]
-    token: Mapped[str]
+    token: Mapped[str] = mapped_column(default=lambda: str(uuid.uuid4()))
 
 
 @table_registry.mapped_as_dataclass
@@ -64,7 +64,7 @@ class Client:
         init=False, server_default=func.now()
     )
     dateUp: Mapped[str]
-    token: Mapped[str]
+    token: Mapped[str] = mapped_column(default=lambda: str(uuid.uuid4()))
 
 
 @table_registry.mapped_as_dataclass
@@ -82,7 +82,7 @@ class Product:
         init=False, server_default=func.now()
     )
     dateUp: Mapped[str]
-    token: Mapped[str]
+    token: Mapped[str] = mapped_column(default=lambda: str(uuid.uuid4()))
 
 
 @table_registry.mapped_as_dataclass
@@ -98,7 +98,7 @@ class Profile:
         init=False, server_default=func.now()
     )
     dateUp: Mapped[str]
-    token: Mapped[str]
+    token: Mapped[str] = mapped_column(default=lambda: str(uuid.uuid4()))
 
 
 @table_registry.mapped_as_dataclass
@@ -113,7 +113,7 @@ class Email:
         init=False, server_default=func.now()
     )
     dateShooting: Mapped[str]
-    token: Mapped[str]
+    token: Mapped[str] = mapped_column(default=lambda: str(uuid.uuid4()))
 
 
 @table_registry.mapped_as_dataclass
@@ -136,4 +136,4 @@ class Sale:
         init=False, server_default=func.now()
     )
     dateUp: Mapped[str]
-    token: Mapped[str]
+    token: Mapped[str] = mapped_column(default=lambda: str(uuid.uuid4()))
